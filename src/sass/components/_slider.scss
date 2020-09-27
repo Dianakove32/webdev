@@ -1,0 +1,31 @@
+.slider{
+    background-color: $color-section;
+}
+.slider__main{
+    display: flex;
+    padding-left: 262px;
+    padding-bottom:140px ;
+    text-align: center;
+}
+.slider__text{
+    max-width: 332px;
+    //padding-right: 139px;
+     @include font($size: 1.4rem, $height: 1.9rem, $weight: 400px);
+     display: flex;
+
+
+}
+.slider__image{
+    >*
+   { padding-right: 30px;}
+}
+.slider-nav{
+    width: 18px;
+    padding: 82px 0 20px 0;
+}
+.slider-content__image{
+  margin-bottom: 20px;
+}
+.slider__content{
+    margin-right: 139px;
+}

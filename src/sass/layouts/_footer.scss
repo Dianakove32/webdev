@@ -1,0 +1,26 @@
+.footer{
+    background-color:$color-background;
+    height:185px ;
+}
+.footer__wrapper{
+    display: flex;
+    align-items: center;
+
+}
+.footer-nav{
+    display: flex;
+    font-size: 1.4rem;
+    line-height: 1.9rem;
+    li>*{
+        text-decoration: none;
+        list-style: none;
+        padding: 0 85px;
+        color: $color-light;
+        opacity: 80%;
+        cursor: pointer;
+        &:hover{
+            color: $color-hover;
+        }
+    }
+
+}

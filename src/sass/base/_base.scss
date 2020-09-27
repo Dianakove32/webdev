@@ -1,0 +1,26 @@
+html{
+    font-size:10px;
+}
+
+body{
+    @extend %font-prim;
+    @include font($size: 1.4rem, $height: 1.96rem, $weight: 400px);
+    color: $color-text;
+}
+h1{
+     @include font($size: 6.4rem, $height: 7.5rem, $weight: 700px);
+       color: $color-light;
+      @extend %text-transform;
+}
+h2{
+    @include font($size: 2.4rem, $height: 2.8rem, $weight: 700px);
+    color: $color-h;
+   @extend %text-transform;
+   margin-bottom: 20px;
+}
+h3{
+    @include font($size: 2rem, $height: 2rem, $weight: 500px);
+    color: $color-h;
+   @extend %text-transform;
+   margin-bottom: 10px;
+}

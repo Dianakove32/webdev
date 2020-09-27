@@ -1,0 +1,28 @@
+.main-screen{
+    background : $color-background;
+    background-image: url("../img/bg-image.png");
+    background-repeat: no-repeat;
+    max-width: 100%;
+    background-position: center;
+    height: 1000px;
+
+}
+.main-screen__content{
+    max-width: 822px;
+   //padding: 200px 435px;
+margin: 0 auto;
+display: flex;
+align-items: center;
+flex-direction: column;
+
+}
+.main-screen__text{
+    display: inline-block;
+    max-width: 550px;
+    @include font($size: 1.8rem, $height: 2.52rem, $weight: 400px);
+    text-align: center;
+    color: $color-light;
+}
+.main-screen__title{
+    margin: 135px 0 20px 0;
+}
