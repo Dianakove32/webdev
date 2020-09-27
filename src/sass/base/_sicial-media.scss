@@ -1,0 +1,33 @@
+.social-media_icon{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+.email{
+    background-image: url("../../img/media/mail.svg");
+    background-repeat: no-repeat;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    z-index: 2;
+
+}
+.facebook{
+    background-image: url("../../img/media/facebook_fff.svg");
+    width: 20px;
+    height: 20px;
+    z-index: 2;
+}
+.insta{
+    background-image: url("../../img/media/insta_fff.svg");
+    width: 20px;
+    height: 20px;
+    z-index: 2;
+}
+.telegram{
+    background-image: url("../../img/media/telegram_fff.svg");
+    width: 20px;
+    height: 20px;
+    z-index: 2;
+}
